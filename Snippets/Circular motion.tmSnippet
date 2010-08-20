@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// assign position to x and y of sprite or 
+// use as drawing coordinates, etc. 
+
+private var _xPosition:Number;
+private var _yPosition:Nubmber;
+private var _centerX:Number;
+private var _centerY:Number;
+private var _angle:Number;
+private var _radius:Number;
+private var _speed:Number;
+
+public function draw(event:Event):void
+{
+	_xPosition = _centerX + Math.cos(_angle) * _radius;
+	_yPosition = _centerY + Math.sin(_angle) * _radius;
+	_angle += _speed;
+}</string>
+	<key>name</key>
+	<string>Circular motion</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>circleMotion</string>
+	<key>uuid</key>
+	<string>48BB9354-3C7F-4B68-AED9-1CB5C98931B6</string>
+</dict>
+</plist>

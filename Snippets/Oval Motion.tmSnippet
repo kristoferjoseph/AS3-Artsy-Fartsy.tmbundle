@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// assign position to x and y of sprite or movie clip,
+// use as drawing coordinates, etc.
+
+private var _xPosition:Number;
+private var _yPosition:Nubmber;
+private var _centerX:Number;
+private var _centerY:Number;
+private var _angle:Number;
+private var _radius:Number;
+private var _speed:Number;
+private var _radiusX:Number;
+private var _radiusY:Number;
+
+public function draw(event:Event):void
+{
+	_xPosition = _centerX + Math.cos(_angle) * _radiusX;
+	_yPosition = _centerY + Math.sin(_angle) * _radiusY;
+	_angle += _speed;
+}
+</string>
+	<key>name</key>
+	<string>Oval Motion</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>ovalMotion</string>
+	<key>uuid</key>
+	<string>36FE6282-76D9-47A1-B15A-81DED7EFC135</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>trace(${1:decimalValue}.toString(16));
+</string>
+	<key>name</key>
+	<string>Decimal to hex</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>decimalHex</string>
+	<key>uuid</key>
+	<string>47D2A09D-8316-4020-A064-FB73939F3C84</string>
+</dict>
+</plist>

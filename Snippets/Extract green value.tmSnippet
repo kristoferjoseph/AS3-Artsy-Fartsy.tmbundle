@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>green = color24 &gt;&gt; 8 &amp; 0xFF;</string>
+	<key>name</key>
+	<string>Extract green value</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>extractGreen</string>
+	<key>uuid</key>
+	<string>47830A4D-4209-48EC-B2C5-2AA7A0CA3B3C</string>
+</dict>
+</plist>

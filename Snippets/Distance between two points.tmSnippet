@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// points are x1, y1 and x2, y2 
+// can be sprite / movie clip positions, mouse coordinates, etc. 
+
+dx = x2 – x1; 
+dy = y2 – y1; 
+dist = Math.sqrt(dx*dx + dy*dy);</string>
+	<key>name</key>
+	<string>Distance between two points</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>dist</string>
+	<key>uuid</key>
+	<string>EA7C3BE0-E679-4A6A-90CA-7C533D1FD4A1</string>
+</dict>
+</plist>

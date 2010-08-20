@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var color32 = alpha &lt;&lt; 24 | red &lt;&lt; 16 | green &lt;&lt; 8 | blue;</string>
+	<key>name</key>
+	<string>Combine 32 bit Color Components</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>color32</string>
+	<key>uuid</key>
+	<string>0E1C0BFD-9C68-45E1-8055-875A7DBC8D5C</string>
+</dict>
+</plist>

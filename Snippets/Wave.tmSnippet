@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// assign value to x, y or other property of sprite or movie clip, 
+// use as drawing coordinates, etc. 
+
+private var _value:Number;
+private var _center:Number = 200;
+private var _angle:Number = 0;
+private var _range:Number = 100;
+private var _speed:Number = 0.5;
+
+public function draw(event:Event):void
+{
+	_value = _center + Math.sin(_angle) * _range; 
+	_angle += _speed;
+}</string>
+	<key>name</key>
+	<string>Wave</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>wave</string>
+	<key>uuid</key>
+	<string>22336E5C-F7AD-4310-A5AA-1BBC909CF9BD</string>
+</dict>
+</plist>

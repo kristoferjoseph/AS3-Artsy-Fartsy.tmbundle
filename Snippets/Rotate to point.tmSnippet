@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// substitute mouseX, mouseY with the x, y point to rotate to 
+var dx = mouseX - ${1:sprite}.x; 
+var dy = mouseY - ${1:sprite}.y; 
+${1:sprite}.rotation = Math.atan2(dy, dx) * 180 / Math.PI;</string>
+	<key>name</key>
+	<string>Rotate to point</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>rotate</string>
+	<key>uuid</key>
+	<string>87B3A739-7086-4735-9A8D-69FCC0347248</string>
+</dict>
+</plist>
